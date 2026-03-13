@@ -1,0 +1,96 @@
+instruments:
+  - symbol: XAUUSD
+    name: Gold
+    category: precious_metals
+    tick_size: 0.01
+    lot_size: 100        # oz per lot
+    margin_rate: 0.05
+    active: true
+
+  - symbol: XTIUSD
+    name: WTI Crude Oil
+    category: energy
+    tick_size: 0.01
+    lot_size: 1000       # barrels per lot
+    margin_rate: 0.10
+    active: true
+
+  - symbol: XBRUSD
+    name: Brent Crude Oil
+    category: energy
+    tick_size: 0.01
+    lot_size: 1000
+    margin_rate: 0.10
+    active: true
+
+  - symbol: XNGUSD
+    name: Natural Gas
+    category: energy
+    tick_size: 0.001
+    lot_size: 10000
+    margin_rate: 0.10
+    active: true
+
+  - symbol: XAGUSD
+    name: Silver
+    category: precious_metals
+    tick_size: 0.001
+    lot_size: 5000
+    margin_rate: 0.10
+    active: true
+
+  - symbol: XCUUSD
+    name: Copper
+    category: base_metals
+    tick_size: 0.0001
+    lot_size: 25000
+    margin_rate: 0.10
+    active: false       # Not available on TabTrade
+
+  - symbol: XPTUSD
+    name: Platinum
+    category: precious_metals
+    tick_size: 0.01
+    lot_size: 100
+    margin_rate: 0.10
+    active: true
+
+  - symbol: XPDUSD
+    name: Palladium
+    category: precious_metals
+    tick_size: 0.01
+    lot_size: 100
+    margin_rate: 0.10
+    active: true
+
+  - symbol: XALUSD
+    name: Aluminium
+    category: base_metals
+    tick_size: 0.001
+    lot_size: 1000
+    margin_rate: 0.10
+    active: true
+
+  - symbol: CORN
+    name: Corn
+    category: agriculture
+    tick_size: 0.25
+    lot_size: 5000
+    margin_rate: 0.10
+    active: false
+
+  - symbol: SOYBEAN
+    name: Soybeans
+    category: agriculture
+    tick_size: 0.25
+    lot_size: 5000
+    margin_rate: 0.10
+    active: false
+
+  - symbol: WHEAT
+    name: Wheat
+    category: agriculture
+    tick_size: 0.25
+    lot_size: 5000
+    margin_rate: 0.10
+    active: false

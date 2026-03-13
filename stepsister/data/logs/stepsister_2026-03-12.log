@@ -1,0 +1,600 @@
+2026-03-12 21:01:49.557 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:01:49.558 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:01:49.558 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:01:49.558 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:01:49.558 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:01:55.199 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:01:55.245 | INFO     | __main__:_run_hft:70 - Mode: HFT (M1 bars, 1s cycles)
+2026-03-12 21:01:55.250 | INFO     | stepsister.orchestrator.hft_engine:start:142 - ============================================================
+2026-03-12 21:01:55.250 | INFO     | stepsister.orchestrator.hft_engine:start:143 -   STEP SISTER HFT Engine starting...
+2026-03-12 21:01:55.250 | INFO     | stepsister.orchestrator.hft_engine:start:144 -   Cycle interval: 1s
+2026-03-12 21:01:55.250 | INFO     | stepsister.orchestrator.hft_engine:start:145 - ============================================================
+2026-03-12 21:01:55.252 | ERROR    | klaus.data.mt5_client:connect:51 - MT5 initialize failed: (-6, 'Terminal: Authorization failed')
+2026-03-12 21:01:55.253 | ERROR    | stepsister.orchestrator.hft_engine:start:148 - Step Sister HFT: Failed to connect to MT5. Aborting.
+2026-03-12 21:03:11.235 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:03:11.236 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:03:11.236 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:03:11.236 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:03:11.236 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:03:14.652 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:03:14.688 | INFO     | __main__:_run_hft:70 - Mode: HFT (M1 bars, 1s cycles)
+2026-03-12 21:03:14.692 | INFO     | stepsister.orchestrator.hft_engine:start:142 - ============================================================
+2026-03-12 21:03:14.692 | INFO     | stepsister.orchestrator.hft_engine:start:143 -   STEP SISTER HFT Engine starting...
+2026-03-12 21:03:14.693 | INFO     | stepsister.orchestrator.hft_engine:start:144 -   Cycle interval: 1s
+2026-03-12 21:03:14.693 | INFO     | stepsister.orchestrator.hft_engine:start:145 - ============================================================
+2026-03-12 21:03:14.694 | ERROR    | klaus.data.mt5_client:connect:51 - MT5 initialize failed: (-6, 'Terminal: Authorization failed')
+2026-03-12 21:03:14.695 | ERROR    | stepsister.orchestrator.hft_engine:start:148 - Step Sister HFT: Failed to connect to MT5. Aborting.
+2026-03-12 21:05:43.867 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:05:43.868 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:05:43.868 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:05:43.869 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:05:43.869 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:05:48.914 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:05:48.924 | INFO     | __main__:_run_standard:57 - Mode: STANDARD (H1 bars, 60s cycles)
+2026-03-12 21:05:48.971 | INFO     | stepsister.orchestrator.engine:_load_mapping:47 - FX RulesEngine loaded mappings for 10 instruments
+2026-03-12 21:05:48.976 | INFO     | stepsister.orchestrator.engine:start:107 - Step Sister Engine starting...
+2026-03-12 21:05:48.983 | INFO     | klaus.data.mt5_client:connect:68 - MT5 connected: account=800000011, server=TabTrade-Live, balance=997.97
+2026-03-12 21:05:48.983 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_sma_crossover
+2026-03-12 21:05:48.983 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_momentum
+2026-03-12 21:05:48.983 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: carry_trade
+2026-03-12 21:05:48.983 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: feer_carry
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_bollinger
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_zscore
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: commodity_fx_corr
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_xgboost_signal
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_lstm_signal
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_tick_scalper
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_order_flow
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_micro_reversion
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_momentum_hft
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_vol_breakout
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_cross_pair_lead_lag
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_spread_scalper
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_dqn_scalper
+2026-03-12 21:05:48.984 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_xgboost_hft
+2026-03-12 21:05:48.984 | INFO     | stepsister.orchestrator.engine:start:117 - Step Sister active instruments: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD', 'EURGBP', 'EURJPY', 'GBPJPY']
+2026-03-12 21:05:55.191 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:05:55.200 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: EURUSD LONG strength=0.422 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:01.695 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:01.704 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:06:08.072 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {1: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:19.117 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:19.124 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCHF SHORT strength=0.806 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:19.125 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCHF SHORT strength=0.562 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:06:25.238 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:25.246 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:06:31.735 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 1: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:31.742 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=1.000 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:31.743 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=1.000 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:06:37.837 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:37.844 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.888 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:37.845 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.858 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:06:44.464 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:51.654 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:58.717 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:06:58.741 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: EURUSD LONG vol=0.01 SL=1.14843 TP=1.15583
+2026-03-12 21:06:58.741 | INFO     | klaus.execution.executor:execute:19 - Executing: EURUSD LONG vol=0.01 SL=1.14843 TP=1.15583 [fx_bollinger]
+2026-03-12 21:06:58.741 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: EURUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:58.741 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:58.741 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: EURUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.168 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155
+2026-03-12 21:06:59.169 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155 [fx_bollinger]
+2026-03-12 21:06:59.169 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCHF SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.170 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.170 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCHF SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.179 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155
+2026-03-12 21:06:59.179 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155 [fx_zscore]
+2026-03-12 21:06:59.179 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCHF SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.179 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.179 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCHF SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.206 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: AUDUSD LONG vol=0.01 SL=0.7047 TP=0.71278
+2026-03-12 21:06:59.206 | INFO     | klaus.execution.executor:execute:19 - Executing: AUDUSD LONG vol=0.01 SL=0.7047 TP=0.71278 [carry_trade]
+2026-03-12 21:06:59.207 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: AUDUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.207 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.207 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: AUDUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.237 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004
+2026-03-12 21:06:59.237 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004 [fx_bollinger]
+2026-03-12 21:06:59.237 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.237 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.237 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.244 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004
+2026-03-12 21:06:59.244 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004 [fx_zscore]
+2026-03-12 21:06:59.245 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.245 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.245 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.266 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939
+2026-03-12 21:06:59.267 | INFO     | klaus.execution.executor:execute:19 - Executing: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939 [fx_bollinger]
+2026-03-12 21:06:59.267 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: NZDUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.267 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.267 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: NZDUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.272 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939
+2026-03-12 21:06:59.273 | INFO     | klaus.execution.executor:execute:19 - Executing: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939 [fx_zscore]
+2026-03-12 21:06:59.273 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: NZDUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.273 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.273 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: NZDUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.283 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: EURUSD LONG strength=0.422 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:59.290 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:06:59.303 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCHF SHORT strength=0.806 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:59.303 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCHF SHORT strength=0.562 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:06:59.311 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:06:59.317 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=1.000 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:59.317 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=1.000 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:06:59.326 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.888 algo=fx_bollinger regime=MEAN_REVERTING
+2026-03-12 21:06:59.327 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.858 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:06:59.360 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: EURUSD LONG vol=0.01 SL=1.14843 TP=1.15583
+2026-03-12 21:06:59.360 | INFO     | klaus.execution.executor:execute:19 - Executing: EURUSD LONG vol=0.01 SL=1.14843 TP=1.15583 [fx_bollinger]
+2026-03-12 21:06:59.361 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: EURUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.361 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.361 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: EURUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.367 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155
+2026-03-12 21:06:59.367 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155 [fx_bollinger]
+2026-03-12 21:06:59.367 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCHF SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.368 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.368 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCHF SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.374 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155
+2026-03-12 21:06:59.374 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCHF SHORT vol=0.01 SL=0.78795 TP=0.78155 [fx_zscore]
+2026-03-12 21:06:59.374 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCHF SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.375 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.375 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCHF SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.381 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: AUDUSD LONG vol=0.01 SL=0.7047 TP=0.71278
+2026-03-12 21:06:59.381 | INFO     | klaus.execution.executor:execute:19 - Executing: AUDUSD LONG vol=0.01 SL=0.7047 TP=0.71278 [carry_trade]
+2026-03-12 21:06:59.381 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: AUDUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.381 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.381 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: AUDUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.389 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004
+2026-03-12 21:06:59.390 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004 [fx_bollinger]
+2026-03-12 21:06:59.390 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.391 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.391 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.396 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004
+2026-03-12 21:06:59.396 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36634 TP=1.36004 [fx_zscore]
+2026-03-12 21:06:59.396 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.396 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.396 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.402 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939
+2026-03-12 21:06:59.402 | INFO     | klaus.execution.executor:execute:19 - Executing: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939 [fx_bollinger]
+2026-03-12 21:06:59.402 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: NZDUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.403 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.403 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: NZDUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:06:59.411 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939
+2026-03-12 21:06:59.411 | INFO     | klaus.execution.executor:execute:19 - Executing: NZDUSD LONG vol=0.01 SL=0.58346 TP=0.58939 [fx_zscore]
+2026-03-12 21:06:59.411 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: NZDUSD LONG 0.01 — AutoTrading disabled by client
+2026-03-12 21:06:59.411 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10027 AutoTrading disabled by client
+2026-03-12 21:06:59.411 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: NZDUSD LONG 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:07:45.489 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:07:45.490 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:07:45.490 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:07:45.490 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:07:45.490 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:07:49.520 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:07:49.526 | INFO     | __main__:_run_standard:57 - Mode: STANDARD (H1 bars, 60s cycles)
+2026-03-12 21:07:49.609 | INFO     | stepsister.orchestrator.engine:_load_mapping:47 - FX RulesEngine loaded mappings for 10 instruments
+2026-03-12 21:07:49.610 | INFO     | stepsister.orchestrator.engine:start:107 - Step Sister Engine starting...
+2026-03-12 21:07:49.616 | INFO     | klaus.data.mt5_client:connect:68 - MT5 connected: account=800000011, server=TabTrade-Live, balance=997.97
+2026-03-12 21:07:49.616 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_sma_crossover
+2026-03-12 21:07:49.616 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_momentum
+2026-03-12 21:07:49.616 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: carry_trade
+2026-03-12 21:07:49.616 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: feer_carry
+2026-03-12 21:07:49.616 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_bollinger
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_zscore
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: commodity_fx_corr
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_xgboost_signal
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_lstm_signal
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_tick_scalper
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_order_flow
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_micro_reversion
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_momentum_hft
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_vol_breakout
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_cross_pair_lead_lag
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_spread_scalper
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_dqn_scalper
+2026-03-12 21:07:49.617 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:144 - Step Sister: Initialised algorithm: fx_xgboost_hft
+2026-03-12 21:07:49.617 | INFO     | stepsister.orchestrator.engine:start:117 - Step Sister active instruments: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD', 'EURGBP', 'EURJPY', 'GBPJPY']
+2026-03-12 21:07:55.090 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:00.646 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:00.654 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:08:06.677 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {1: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:12.702 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:18.501 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:18.508 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:08:24.353 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 1: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:24.363 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=0.453 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:08:30.242 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:30.253 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.301 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:08:36.374 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:42.322 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:48.433 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:08:48.451 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: AUDUSD LONG vol=0.01 SL=0.70469 TP=0.71277
+2026-03-12 21:08:48.451 | INFO     | klaus.execution.executor:execute:19 - Executing: AUDUSD LONG vol=0.01 SL=0.70469 TP=0.71277 [carry_trade]
+2026-03-12 21:08:48.480 | INFO     | klaus.data.mt5_client:send_order:250 - Order filled: AUDUSD LONG 0.01 @ 0.70792 ticket=2543
+2026-03-12 21:08:48.481 | INFO     | klaus.execution.executor:execute:35 - Filled: ticket=2543 @ 0.70792
+2026-03-12 21:08:48.481 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: AUDUSD LONG 0.01 @ 0.70792 [FILLED]
+2026-03-12 21:08:48.491 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36631 TP=1.36001
+2026-03-12 21:08:48.491 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36631 TP=1.36001 [fx_zscore]
+2026-03-12 21:08:48.491 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — No money
+2026-03-12 21:08:48.492 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10019 No money
+2026-03-12 21:08:48.492 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:08:48.499 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: NZDUSD LONG vol=0.01 SL=0.58326 TP=0.58919
+2026-03-12 21:08:48.500 | INFO     | klaus.execution.executor:execute:19 - Executing: NZDUSD LONG vol=0.01 SL=0.58326 TP=0.58919 [fx_zscore]
+2026-03-12 21:08:48.519 | INFO     | klaus.data.mt5_client:send_order:250 - Order filled: NZDUSD LONG 0.01 @ 0.58563 ticket=2544
+2026-03-12 21:08:48.519 | INFO     | klaus.execution.executor:execute:35 - Filled: ticket=2544 @ 0.58563
+2026-03-12 21:08:48.519 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: NZDUSD LONG 0.01 @ 0.58563 [FILLED]
+2026-03-12 21:08:49.641 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:08:49.683 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:08:49.696 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=0.453 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:08:49.704 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.301 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:08:49.728 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): AUDUSD
+2026-03-12 21:08:49.736 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36631 TP=1.36001
+2026-03-12 21:08:49.737 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36631 TP=1.36001 [fx_zscore]
+2026-03-12 21:08:49.737 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — No money
+2026-03-12 21:08:49.737 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10019 No money
+2026-03-12 21:08:49.737 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:08:49.737 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): NZDUSD
+2026-03-12 21:09:49.662 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:09:49.764 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:09:49.807 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=0.453 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:09:49.827 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.301 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:09:49.864 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): AUDUSD
+2026-03-12 21:09:49.880 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36681 TP=1.36042
+2026-03-12 21:09:49.880 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36681 TP=1.36042 [fx_zscore]
+2026-03-12 21:09:49.881 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — No money
+2026-03-12 21:09:49.881 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10019 No money
+2026-03-12 21:09:49.881 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:09:49.881 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): NZDUSD
+2026-03-12 21:10:49.634 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:10:49.657 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:10:49.664 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=0.453 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:10:49.671 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.301 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:10:49.694 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): AUDUSD
+2026-03-12 21:10:49.701 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36682 TP=1.3604
+2026-03-12 21:10:49.701 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36682 TP=1.3604 [fx_zscore]
+2026-03-12 21:10:49.703 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — No money
+2026-03-12 21:10:49.703 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10019 No money
+2026-03-12 21:10:49.703 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:10:49.703 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): NZDUSD
+2026-03-12 21:11:49.641 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:11:49.669 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:11:49.676 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: USDCAD SHORT strength=0.453 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:11:49.683 | INFO     | stepsister.orchestrator.engine:_process_instrument:203 - Step Sister Signal: NZDUSD LONG strength=0.301 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:11:49.716 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): AUDUSD
+2026-03-12 21:11:49.723 | INFO     | klaus.risk.risk_manager:evaluate:138 - Trade approved: USDCAD SHORT vol=0.01 SL=1.36659 TP=1.36016
+2026-03-12 21:11:49.723 | INFO     | klaus.execution.executor:execute:19 - Executing: USDCAD SHORT vol=0.01 SL=1.36659 TP=1.36016 [fx_zscore]
+2026-03-12 21:11:49.723 | WARNING  | klaus.data.mt5_client:send_order:243 - Order rejected: USDCAD SHORT 0.01 — No money
+2026-03-12 21:11:49.724 | WARNING  | klaus.execution.executor:execute:37 - Order not filled: REJECTED err=10019 No money
+2026-03-12 21:11:49.724 | INFO     | stepsister.orchestrator.engine:_run_cycle:163 - Step Sister trade executed: USDCAD SHORT 0.01 @ 0.0 [REJECTED]
+2026-03-12 21:11:49.724 | INFO     | klaus.risk.risk_manager:evaluate:64 - Signal blocked (max per instrument): NZDUSD
+2026-03-12 21:15:51.967 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:15:51.970 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:15:51.970 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:15:51.971 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:15:51.972 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:15:56.921 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:15:56.942 | INFO     | __main__:_run_standard:57 - Mode: STANDARD (H1 bars, 60s cycles)
+2026-03-12 21:15:56.982 | INFO     | stepsister.orchestrator.engine:_load_mapping:47 - FX RulesEngine loaded mappings for 10 instruments
+2026-03-12 21:15:56.991 | INFO     | stepsister.orchestrator.engine:start:111 - Step Sister Engine starting...
+2026-03-12 21:15:57.002 | INFO     | klaus.data.mt5_client:connect:68 - MT5 connected: account=800000011, server=TabTrade-Live, balance=997.91
+2026-03-12 21:15:57.011 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_sma_crossover
+2026-03-12 21:15:57.012 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum
+2026-03-12 21:15:57.012 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: carry_trade
+2026-03-12 21:15:57.012 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: feer_carry
+2026-03-12 21:15:57.012 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_bollinger
+2026-03-12 21:15:57.013 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_zscore
+2026-03-12 21:15:57.013 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: commodity_fx_corr
+2026-03-12 21:15:57.013 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_signal
+2026-03-12 21:15:57.013 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_lstm_signal
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_tick_scalper
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_order_flow
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_micro_reversion
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum_hft
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_vol_breakout
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_cross_pair_lead_lag
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_spread_scalper
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_dqn_scalper
+2026-03-12 21:15:57.014 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_hft
+2026-03-12 21:15:57.014 | INFO     | stepsister.orchestrator.engine:start:121 - Step Sister active instruments: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD', 'EURGBP', 'EURJPY', 'GBPJPY']
+2026-03-12 21:15:57.017 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:168 - Step Sister: warming up 2 ML models...
+2026-03-12 21:15:57.175 | WARNING  | stepsister.algorithms.ml.fx_xgboost_signal:fit:115 - xgboost not installed — fx_xgboost_signal disabled
+2026-03-12 21:15:57.177 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_xgboost_signal' trained on 500 bars
+2026-03-12 21:16:02.405 | INFO     | stepsister.algorithms.ml.fx_lstm_signal:fit:192 - FX LSTM trained on 304 sequences, last_loss=0.6811
+2026-03-12 21:16:02.409 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_lstm_signal' trained on 500 bars
+2026-03-12 21:16:02.410 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.91 equity=$997.22 free_margin=$27.51 margin_level=102.8% positions=2
+2026-03-12 21:16:12.369 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:16:21.986 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:16:21.998 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:16:41.391 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:16:41.392 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:16:41.392 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:16:41.393 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:16:41.393 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:16:53.250 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:16:53.255 | INFO     | __main__:_run_standard:57 - Mode: STANDARD (H1 bars, 60s cycles)
+2026-03-12 21:16:53.291 | INFO     | stepsister.orchestrator.engine:_load_mapping:47 - FX RulesEngine loaded mappings for 10 instruments
+2026-03-12 21:16:53.295 | INFO     | stepsister.orchestrator.engine:start:111 - Step Sister Engine starting...
+2026-03-12 21:16:53.302 | INFO     | klaus.data.mt5_client:connect:68 - MT5 connected: account=800000011, server=TabTrade-Live, balance=997.91
+2026-03-12 21:16:53.302 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_sma_crossover
+2026-03-12 21:16:53.302 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum
+2026-03-12 21:16:53.302 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: carry_trade
+2026-03-12 21:16:53.302 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: feer_carry
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_bollinger
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_zscore
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: commodity_fx_corr
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_signal
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_lstm_signal
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_tick_scalper
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_order_flow
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_micro_reversion
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum_hft
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_vol_breakout
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_cross_pair_lead_lag
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_spread_scalper
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_dqn_scalper
+2026-03-12 21:16:53.303 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_hft
+2026-03-12 21:16:53.303 | INFO     | stepsister.orchestrator.engine:start:121 - Step Sister active instruments: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD', 'EURGBP', 'EURJPY', 'GBPJPY']
+2026-03-12 21:16:53.303 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:168 - Step Sister: warming up 2 ML models...
+2026-03-12 21:16:53.843 | INFO     | stepsister.algorithms.ml.fx_xgboost_signal:fit:148 - FX XGBoost trained: val_accuracy=0.410 on 240 H1 bars
+2026-03-12 21:16:53.852 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_xgboost_signal' trained on 500 bars
+2026-03-12 21:16:57.871 | INFO     | stepsister.algorithms.ml.fx_lstm_signal:fit:192 - FX LSTM trained on 304 sequences, last_loss=0.6836
+2026-03-12 21:16:57.872 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_lstm_signal' trained on 500 bars
+2026-03-12 21:16:57.873 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.91 equity=$997.12 free_margin=$27.41 margin_level=102.8% positions=2
+2026-03-12 21:17:03.591 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:10.762 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:10.771 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:17:16.157 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {1: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:21.498 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:26.778 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:26.795 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:17:26.817 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD SHORT strength=0.766 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:32.141 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 1: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:32.150 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.474 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:17:32.154 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.761 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:38.265 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:38.276 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:17:38.283 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:43.657 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:43.669 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURGBP LONG strength=0.558 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:48.998 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:49.018 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURJPY LONG strength=0.232 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:54.442 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:17:54.456 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: GBPJPY LONG strength=0.449 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:54.456 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): AUDUSD carry_trade
+2026-03-12 21:17:54.456 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): AUDUSD fx_xgboost_signal
+2026-03-12 21:17:54.456 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): USDCAD fx_zscore
+2026-03-12 21:17:54.457 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): USDCAD fx_xgboost_signal
+2026-03-12 21:17:54.457 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): NZDUSD fx_zscore
+2026-03-12 21:17:54.457 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): NZDUSD fx_xgboost_signal
+2026-03-12 21:17:54.457 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): EURGBP fx_xgboost_signal
+2026-03-12 21:17:54.457 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): EURJPY fx_xgboost_signal
+2026-03-12 21:17:54.458 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): GBPJPY fx_xgboost_signal
+2026-03-12 21:17:57.873 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.91 equity=$997.12 free_margin=$27.41 margin_level=102.8% positions=2
+2026-03-12 21:17:57.901 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:17:57.928 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:17:57.932 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD SHORT strength=0.766 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:57.942 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.474 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:17:57.946 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.761 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:57.953 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:17:57.957 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:57.966 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURGBP LONG strength=0.558 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:57.980 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURJPY LONG strength=0.232 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:57.994 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: GBPJPY LONG strength=0.449 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:17:57.998 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): AUDUSD carry_trade
+2026-03-12 21:17:58.003 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): AUDUSD fx_xgboost_signal
+2026-03-12 21:17:58.004 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): USDCAD fx_zscore
+2026-03-12 21:17:58.005 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): USDCAD fx_xgboost_signal
+2026-03-12 21:17:58.005 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): NZDUSD fx_zscore
+2026-03-12 21:17:58.006 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): NZDUSD fx_xgboost_signal
+2026-03-12 21:17:58.006 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): EURGBP fx_xgboost_signal
+2026-03-12 21:17:58.006 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): EURJPY fx_xgboost_signal
+2026-03-12 21:17:58.007 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.41 < 10% of $997.12): GBPJPY fx_xgboost_signal
+2026-03-12 21:18:57.874 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.91 equity=$997.13 free_margin=$27.42 margin_level=102.8% positions=2
+2026-03-12 21:18:58.038 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:18:58.111 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:18:58.123 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD SHORT strength=0.766 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:18:58.136 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.474 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:18:58.140 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.761 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:18:58.148 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:18:58.154 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:18:58.169 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURGBP LONG strength=0.558 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:18:58.186 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURJPY LONG strength=0.232 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:18:58.205 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: GBPJPY LONG strength=0.449 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:18:58.206 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): AUDUSD carry_trade
+2026-03-12 21:18:58.206 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): AUDUSD fx_xgboost_signal
+2026-03-12 21:18:58.206 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): USDCAD fx_zscore
+2026-03-12 21:18:58.206 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): USDCAD fx_xgboost_signal
+2026-03-12 21:18:58.206 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): NZDUSD fx_zscore
+2026-03-12 21:18:58.207 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): NZDUSD fx_xgboost_signal
+2026-03-12 21:18:58.207 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): EURGBP fx_xgboost_signal
+2026-03-12 21:18:58.207 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): EURJPY fx_xgboost_signal
+2026-03-12 21:18:58.207 | INFO     | klaus.risk.risk_manager:evaluate:56 - Signal blocked (low free margin $27.42 < 10% of $997.13): GBPJPY fx_xgboost_signal
+2026-03-12 21:20:37.524 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:20:37.525 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:20:37.526 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:20:37.526 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:20:37.526 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:20:42.240 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:20:42.253 | INFO     | __main__:_run_standard:57 - Mode: STANDARD (H1 bars, 60s cycles)
+2026-03-12 21:20:42.320 | INFO     | stepsister.orchestrator.engine:_load_mapping:47 - FX RulesEngine loaded mappings for 10 instruments
+2026-03-12 21:20:42.331 | INFO     | stepsister.orchestrator.engine:start:111 - Step Sister Engine starting...
+2026-03-12 21:20:42.347 | INFO     | klaus.data.mt5_client:connect:68 - MT5 connected: account=800000011, server=TabTrade-Live, balance=997.07
+2026-03-12 21:20:42.357 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_sma_crossover
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: carry_trade
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: feer_carry
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_bollinger
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_zscore
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: commodity_fx_corr
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_signal
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_lstm_signal
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_tick_scalper
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_order_flow
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_micro_reversion
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum_hft
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_vol_breakout
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_cross_pair_lead_lag
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_spread_scalper
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_dqn_scalper
+2026-03-12 21:20:42.358 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_hft
+2026-03-12 21:20:42.359 | INFO     | stepsister.orchestrator.engine:start:121 - Step Sister active instruments: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD', 'EURGBP', 'EURJPY', 'GBPJPY']
+2026-03-12 21:20:42.371 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:168 - Step Sister: warming up 2 ML models...
+2026-03-12 21:20:42.805 | INFO     | stepsister.algorithms.ml.fx_xgboost_signal:fit:148 - FX XGBoost trained: val_accuracy=0.410 on 240 H1 bars
+2026-03-12 21:20:42.812 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_xgboost_signal' trained on 500 bars
+2026-03-12 21:20:47.214 | INFO     | stepsister.algorithms.ml.fx_lstm_signal:fit:192 - FX LSTM trained on 304 sequences, last_loss=0.6842
+2026-03-12 21:20:47.215 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_lstm_signal' trained on 500 bars
+2026-03-12 21:20:47.216 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.07 equity=$997.07 free_margin=$997.07 margin_level=0.0% positions=0
+2026-03-12 21:20:53.478 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:00.773 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:00.781 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:21:08.076 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {1: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:13.866 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:19.140 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:19.153 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:21:19.224 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD SHORT strength=0.766 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:24.774 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 1: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:24.786 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.485 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:21:24.798 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.761 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:30.308 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:30.318 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:21:30.347 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:35.678 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:35.698 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURGBP LONG strength=0.516 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:41.012 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:41.030 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURJPY LONG strength=0.232 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:46.453 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:21:46.469 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: GBPJPY LONG strength=0.475 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:46.485 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): AUDUSD LONG | free_margin=$997.07
+2026-03-12 21:21:46.501 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): AUDUSD SHORT | free_margin=$997.07
+2026-03-12 21:21:46.514 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): USDCAD SHORT | free_margin=$997.07
+2026-03-12 21:21:46.522 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): USDCAD SHORT | free_margin=$997.07
+2026-03-12 21:21:46.532 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): NZDUSD LONG | free_margin=$997.07
+2026-03-12 21:21:46.544 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): NZDUSD LONG | free_margin=$997.07
+2026-03-12 21:21:46.554 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): EURGBP LONG | free_margin=$997.07
+2026-03-12 21:21:46.570 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): EURJPY LONG | free_margin=$997.07
+2026-03-12 21:21:46.580 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): GBPJPY LONG | free_margin=$997.07
+2026-03-12 21:21:47.216 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.07 equity=$997.07 free_margin=$997.07 margin_level=0.0% positions=0
+2026-03-12 21:21:47.248 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:21:47.287 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:21:47.299 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD SHORT strength=0.766 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:47.308 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.485 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:21:47.321 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.761 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:47.333 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:21:47.359 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:47.372 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURGBP LONG strength=0.516 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:47.383 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURJPY LONG strength=0.232 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:47.396 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: GBPJPY LONG strength=0.475 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:21:47.406 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): AUDUSD LONG | free_margin=$997.07
+2026-03-12 21:21:47.417 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): AUDUSD SHORT | free_margin=$997.07
+2026-03-12 21:21:47.432 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): USDCAD SHORT | free_margin=$997.07
+2026-03-12 21:21:47.447 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): USDCAD SHORT | free_margin=$997.07
+2026-03-12 21:21:47.460 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): NZDUSD LONG | free_margin=$997.07
+2026-03-12 21:21:47.471 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): NZDUSD LONG | free_margin=$997.07
+2026-03-12 21:21:47.481 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): EURGBP LONG | free_margin=$997.07
+2026-03-12 21:21:47.492 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): EURJPY LONG | free_margin=$997.07
+2026-03-12 21:21:47.504 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): GBPJPY LONG | free_margin=$997.07
+2026-03-12 21:22:47.217 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.07 equity=$997.07 free_margin=$997.07 margin_level=0.0% positions=0
+2026-03-12 21:22:47.252 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:22:47.295 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:22:47.301 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD SHORT strength=0.766 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:22:47.315 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.485 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:22:47.324 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.761 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:22:47.334 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:22:47.365 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.358 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:22:47.383 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURGBP LONG strength=0.516 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:22:47.398 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURJPY LONG strength=0.232 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:22:47.410 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: GBPJPY LONG strength=0.475 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:22:47.425 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): AUDUSD LONG | free_margin=$997.07
+2026-03-12 21:22:47.439 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): AUDUSD SHORT | free_margin=$997.07
+2026-03-12 21:22:47.446 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): USDCAD SHORT | free_margin=$997.07
+2026-03-12 21:22:47.469 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): USDCAD SHORT | free_margin=$997.07
+2026-03-12 21:22:47.484 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): NZDUSD LONG | free_margin=$997.07
+2026-03-12 21:22:47.496 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): NZDUSD LONG | free_margin=$997.07
+2026-03-12 21:22:47.512 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): EURGBP LONG | free_margin=$997.07
+2026-03-12 21:22:47.520 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): EURJPY LONG | free_margin=$997.07
+2026-03-12 21:22:47.535 | INFO     | klaus.risk.risk_manager:evaluate:151 - Signal blocked (insufficient margin even at min vol): GBPJPY LONG | free_margin=$997.07
+2026-03-12 21:23:16.105 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:23:16.106 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:23:16.106 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:23:16.107 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:23:16.107 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:23:20.936 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:23:20.946 | INFO     | __main__:_run_standard:57 - Mode: STANDARD (H1 bars, 60s cycles)
+2026-03-12 21:23:20.988 | INFO     | stepsister.orchestrator.engine:_load_mapping:47 - FX RulesEngine loaded mappings for 10 instruments
+2026-03-12 21:23:20.989 | INFO     | stepsister.orchestrator.engine:start:111 - Step Sister Engine starting...
+2026-03-12 21:23:20.996 | INFO     | klaus.data.mt5_client:connect:68 - MT5 connected: account=800000011, server=TabTrade-Live, balance=997.07
+2026-03-12 21:23:20.996 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_sma_crossover
+2026-03-12 21:23:20.996 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum
+2026-03-12 21:23:20.996 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: carry_trade
+2026-03-12 21:23:20.996 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: feer_carry
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_bollinger
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_zscore
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: commodity_fx_corr
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_signal
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_lstm_signal
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_tick_scalper
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_order_flow
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_micro_reversion
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum_hft
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_vol_breakout
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_cross_pair_lead_lag
+2026-03-12 21:23:20.997 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_spread_scalper
+2026-03-12 21:23:20.998 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_dqn_scalper
+2026-03-12 21:23:20.998 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_hft
+2026-03-12 21:23:20.998 | INFO     | stepsister.orchestrator.engine:start:121 - Step Sister active instruments: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD', 'EURGBP', 'EURJPY', 'GBPJPY']
+2026-03-12 21:23:20.999 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:168 - Step Sister: warming up 2 ML models...
+2026-03-12 21:23:21.682 | INFO     | stepsister.algorithms.ml.fx_xgboost_signal:fit:148 - FX XGBoost trained: val_accuracy=0.410 on 240 H1 bars
+2026-03-12 21:23:21.689 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_xgboost_signal' trained on 500 bars
+2026-03-12 21:23:25.570 | INFO     | stepsister.algorithms.ml.fx_lstm_signal:fit:192 - FX LSTM trained on 304 sequences, last_loss=0.6807
+2026-03-12 21:23:25.570 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_lstm_signal' trained on 500 bars
+2026-03-12 21:23:25.571 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.07 equity=$997.07 free_margin=$997.07 margin_level=0.0% positions=0
+2026-03-12 21:23:31.309 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:23:48.258 | INFO     | stepsister.monitoring.logger:setup_fx_logger:48 - Step Sister logger initialised
+2026-03-12 21:23:48.260 | INFO     | __main__:main:26 - ============================================================
+2026-03-12 21:23:48.260 | INFO     | __main__:main:27 -   STEP SISTER — AI-Driven Forex Trading Platform
+2026-03-12 21:23:48.261 | INFO     | __main__:main:28 -   (Klaus's Step Sister)
+2026-03-12 21:23:48.261 | INFO     | __main__:main:29 - ============================================================
+2026-03-12 21:23:51.573 | WARNING  | klaus.regime.hmm_detector:<module>:21 - hmmlearn not available — using scipy-based fallback HMM
+2026-03-12 21:23:51.578 | INFO     | __main__:_run_standard:57 - Mode: STANDARD (H1 bars, 60s cycles)
+2026-03-12 21:23:51.611 | INFO     | stepsister.orchestrator.engine:_load_mapping:47 - FX RulesEngine loaded mappings for 10 instruments
+2026-03-12 21:23:51.612 | INFO     | stepsister.orchestrator.engine:start:111 - Step Sister Engine starting...
+2026-03-12 21:23:51.617 | INFO     | klaus.data.mt5_client:connect:68 - MT5 connected: account=800000011, server=TabTrade-Live, balance=997.07
+2026-03-12 21:23:51.618 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_sma_crossover
+2026-03-12 21:23:51.618 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum
+2026-03-12 21:23:51.618 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: carry_trade
+2026-03-12 21:23:51.618 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: feer_carry
+2026-03-12 21:23:51.618 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_bollinger
+2026-03-12 21:23:51.618 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_zscore
+2026-03-12 21:23:51.618 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: commodity_fx_corr
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_signal
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_lstm_signal
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_tick_scalper
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_order_flow
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_micro_reversion
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_momentum_hft
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_vol_breakout
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_cross_pair_lead_lag
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_spread_scalper
+2026-03-12 21:23:51.619 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_dqn_scalper
+2026-03-12 21:23:51.620 | DEBUG    | stepsister.orchestrator.engine:_init_algorithms:155 - Step Sister: Initialised algorithm: fx_xgboost_hft
+2026-03-12 21:23:51.620 | INFO     | stepsister.orchestrator.engine:start:121 - Step Sister active instruments: ['EURUSD', 'GBPUSD', 'USDJPY', 'USDCHF', 'AUDUSD', 'USDCAD', 'NZDUSD', 'EURGBP', 'EURJPY', 'GBPJPY']
+2026-03-12 21:23:51.620 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:168 - Step Sister: warming up 2 ML models...
+2026-03-12 21:23:52.009 | INFO     | stepsister.algorithms.ml.fx_xgboost_signal:fit:148 - FX XGBoost trained: val_accuracy=0.410 on 240 H1 bars
+2026-03-12 21:23:52.017 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_xgboost_signal' trained on 500 bars
+2026-03-12 21:24:06.998 | INFO     | stepsister.algorithms.ml.fx_lstm_signal:fit:192 - FX LSTM trained on 304 sequences, last_loss=0.6820
+2026-03-12 21:24:06.999 | INFO     | stepsister.orchestrator.engine:_warmup_ml_models:182 - Step Sister: ML model 'fx_lstm_signal' trained on 500 bars
+2026-03-12 21:24:07.000 | INFO     | stepsister.orchestrator.engine:_run_cycle:221 - Account: balance=$997.07 equity=$997.07 free_margin=$997.07 margin_level=0.0% positions=0
+2026-03-12 21:24:12.493 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:18.087 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:18.111 | DEBUG    | stepsister.orchestrator.engine:get_algorithms:60 - No FX algorithms for GBPUSD in VOLATILE regime
+2026-03-12 21:24:23.249 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {1: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:28.517 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:33.854 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:33.864 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD LONG strength=0.600 algo=carry_trade regime=MEAN_REVERTING
+2026-03-12 21:24:33.869 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: AUDUSD SHORT strength=0.460 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:24:39.183 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 1: <Regime.MEAN_REVERTING: 2>, 0: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:39.190 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.443 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:24:39.196 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: USDCAD SHORT strength=0.734 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:24:44.665 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:44.673 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.366 algo=fx_zscore regime=MEAN_REVERTING
+2026-03-12 21:24:44.678 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: NZDUSD LONG strength=0.433 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:24:50.593 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {2: <Regime.TRENDING: 1>, 0: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:50.606 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURGBP LONG strength=0.516 algo=fx_xgboost_signal regime=MEAN_REVERTING
+2026-03-12 21:24:57.062 | INFO     | klaus.regime.hmm_detector:fit:101 - HMM fitted on 480 observations. Labels: {0: <Regime.TRENDING: 1>, 2: <Regime.MEAN_REVERTING: 2>, 1: <Regime.VOLATILE: 3>}
+2026-03-12 21:24:57.073 | INFO     | stepsister.orchestrator.engine:_process_instrument:290 - Step Sister Signal: EURJPY LONG strength=0.349 algo=fx_xgboost_signal regime=MEAN_REVERTING

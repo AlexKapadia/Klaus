@@ -1,0 +1,185 @@
+hmm:
+  n_states: 3
+  features:
+    - returns
+    - rolling_volatility
+  covariance_type: full
+  n_iter: 100
+  refit_interval: weekly
+  predict_timeframe: H4
+
+mapping:
+  EURUSD:
+    TRENDING:
+      - fx_sma_crossover
+      - fx_momentum
+      - fx_lstm_signal
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - carry_trade
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  GBPUSD:
+    TRENDING:
+      - fx_sma_crossover
+      - fx_momentum
+      - fx_lstm_signal
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  USDJPY:
+    TRENDING:
+      - fx_sma_crossover
+      - carry_trade
+      - fx_lstm_signal
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  USDCHF:
+    TRENDING:
+      - fx_sma_crossover
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - feer_carry
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  AUDUSD:
+    TRENDING:
+      - fx_sma_crossover
+      - commodity_fx_corr
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - carry_trade
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  USDCAD:
+    TRENDING:
+      - fx_sma_crossover
+      - commodity_fx_corr
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  NZDUSD:
+    TRENDING:
+      - fx_sma_crossover
+      - carry_trade
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  EURGBP:
+    TRENDING:
+      - fx_sma_crossover
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  EURJPY:
+    TRENDING:
+      - fx_sma_crossover
+      - carry_trade
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - fx_xgboost_signal
+    VOLATILE: []
+
+  GBPJPY:
+    TRENDING:
+      - fx_sma_crossover
+      - carry_trade
+      - fx_xgboost_signal
+    MEAN_REVERTING:
+      - fx_bollinger
+      - fx_zscore
+      - fx_xgboost_signal
+    VOLATILE: []
+
+# ── HFT Algorithm -> Instrument x Regime Mapping ──────────────────
+# Used by the FX HFT engine on M1 bars.
+hft_mapping:
+  EURUSD:
+    TRENDING: &all_fx_hft
+      - fx_tick_scalper
+      - fx_order_flow
+      - fx_micro_reversion
+      - fx_momentum_hft
+      - fx_vol_breakout
+      - fx_cross_pair_lead_lag
+      - fx_spread_scalper
+      - fx_dqn_scalper
+      - fx_xgboost_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  GBPUSD:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  USDJPY:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  USDCHF:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  AUDUSD:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  USDCAD:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  NZDUSD:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  EURGBP:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  EURJPY:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft
+
+  GBPJPY:
+    TRENDING: *all_fx_hft
+    MEAN_REVERTING: *all_fx_hft
+    VOLATILE: *all_fx_hft

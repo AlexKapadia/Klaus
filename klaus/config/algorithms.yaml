@@ -1,0 +1,151 @@
+algorithms:
+  sma_crossover:
+    fast_period: 20
+    slow_period: 50
+    signal_period: 9
+    vol_scaling: true
+
+  bollinger:
+    period: 20
+    num_std: 2.0
+    exit_at_mean: true
+
+  zscore_reversion:
+    lookback: 60
+    entry_threshold: 2.0
+    exit_threshold: 0.5
+
+  spread_ou:
+    lookback: 60
+    entry_z: 2.0
+    exit_z: 0.5
+    half_life_max: 30
+
+  gold_silver_ratio:
+    lookback: 120
+    entry_z: 2.0
+    exit_z: 0.5
+    gold_symbol: XAUUSD
+    silver_symbol: XAGUSD
+
+  soybean_crush:
+    lookback: 60
+    entry_z: 2.0
+    exit_z: 0.5
+
+  gjr_garch:
+    p: 1
+    o: 1
+    q: 1
+    vol_forecast_horizon: 5
+    high_vol_threshold: 1.5
+
+  har:
+    daily_lag: 1
+    weekly_lag: 5
+    monthly_lag: 22
+
+  natgas_calendar:
+    injection_start_month: 4
+    injection_end_month: 10
+    withdrawal_start_month: 11
+    withdrawal_end_month: 3
+
+  ag_growing:
+    planting_start_month: 4
+    planting_end_month: 6
+    harvest_start_month: 9
+    harvest_end_month: 11
+
+  gpr_index:
+    lookback: 30
+    threshold: 1.5
+
+  xgboost_signal:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.05
+    retrain_interval_days: 7
+
+  lstm_signal:
+    hidden_size: 64
+    num_layers: 2
+    sequence_length: 60
+    dropout: 0.2
+    retrain_interval_days: 7
+
+  tcn_signal:
+    num_channels: [32, 32, 32]
+    kernel_size: 3
+    sequence_length: 60
+    dropout: 0.2
+    retrain_interval_days: 7
+
+  # ── HFT Algorithms ──────────────────────────────────────────────
+
+  order_flow_imbalance:
+    n_buckets: 30
+    bucket_size_bars: 5
+    vpin_threshold: 0.4
+    ofi_lookback: 10
+
+  tick_scalper:
+    fast_ema: 3
+    slow_ema: 8
+    rsi_period: 7
+    rsi_overbought: 70          # less restrictive — more short signals
+    rsi_oversold: 30             # less restrictive — more long signals
+    volume_multiplier: 1.0
+    confirmation_bars: 1
+
+  vol_breakout_hft:
+    atr_period: 10
+    lookback: 30
+    compression_percentile: 30
+    breakout_multiplier: 1.5
+    volume_confirm: false
+
+  micro_reversion:
+    vwap_period: 20
+    zscore_entry: 1.2             # lower entry for more frequent signals
+    zscore_exit: 0.3
+    min_spread_multiplier: 1.5    # less restrictive spread filter
+    use_acceleration: false
+
+  spread_scalper_hft:
+    lookback: 20
+    entry_z: 1.0                  # lower entry — more frequent trades
+    exit_z: 0.3
+    half_life_max: 20
+    min_spread_vol: 0.00005
+
+  cross_commodity_lead_lag:
+    return_window: 3
+    lag_window: 1
+    divergence_threshold: 0.001
+    correlation_lookback: 40
+    min_correlation: 0.2
+
+  # ── ML HFT Algorithms ───────────────────────────────────────────
+
+  dqn_scalper:
+    sequence_length: 20
+    gamma: 0.95
+    epsilon: 0.1
+    learning_rate: 0.001
+    batch_size: 64
+    retrain_interval_days: 1
+    min_confidence: 0.5
+
+  xgboost_hft:
+    n_estimators: 150
+    max_depth: 5
+    learning_rate: 0.08
+    retrain_interval_hours: 4
+    probability_threshold: 0.55
+    prediction_horizon: 5
+
+  hft_momentum:
+    lookback: 3
+    threshold: 0.0001
+    strong_threshold: 0.005

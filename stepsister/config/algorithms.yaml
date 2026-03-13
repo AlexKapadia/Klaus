@@ -1,0 +1,123 @@
+algorithms:
+  # ── Standard Forex Algorithms ──────────────────────────────────
+
+  fx_sma_crossover:
+    fast_period: 20
+    slow_period: 50
+    signal_period: 9
+    vol_scaling: true
+
+  fx_momentum:
+    ranking_period: 20
+    holding_period: 5
+    n_long: 3
+    n_short: 3
+
+  carry_trade:
+    forward_lookback: 20
+    vol_scaling: true
+    vol_target: 0.10
+
+  feer_carry:
+    ppp_lookback: 120
+    overvaluation_threshold: 0.15
+    forward_lookback: 20
+
+  fx_bollinger:
+    period: 20
+    num_std: 2.0
+    exit_at_mean: true
+
+  fx_zscore:
+    lookback: 60
+    entry_threshold: 2.0
+    exit_threshold: 0.5
+
+  commodity_fx_corr:
+    correlation_lookback: 120
+    divergence_threshold: 2.0
+    commodity_map:
+      AUDUSD: XAUUSD
+      USDCAD: XTIUSD
+
+  # ── HFT Forex Algorithms ───────────────────────────────────────
+
+  fx_tick_scalper:
+    fast_ema: 3
+    slow_ema: 8
+    rsi_period: 7
+    rsi_overbought: 70
+    rsi_oversold: 30
+    volume_multiplier: 1.0
+    confirmation_bars: 1
+
+  fx_order_flow:
+    n_buckets: 30
+    bucket_size_bars: 5
+    vpin_threshold: 0.4
+    ofi_lookback: 10
+
+  fx_micro_reversion:
+    vwap_period: 20
+    zscore_entry: 1.2
+    zscore_exit: 0.3
+    min_spread_multiplier: 1.5
+    use_acceleration: false
+
+  fx_momentum_hft:
+    lookback: 3
+    threshold: 0.0001
+    strong_threshold: 0.003
+
+  fx_vol_breakout:
+    atr_period: 10
+    lookback: 30
+    compression_percentile: 30
+    breakout_multiplier: 1.5
+    volume_confirm: false
+
+  fx_cross_pair_lead_lag:
+    return_window: 3
+    lag_window: 1
+    divergence_threshold: 0.0005
+    correlation_lookback: 40
+    min_correlation: 0.2
+
+  fx_spread_scalper:
+    lookback: 20
+    entry_z: 1.0
+    exit_z: 0.3
+    half_life_max: 20
+    min_spread_vol: 0.00003
+
+  # ── ML Forex Algorithms ────────────────────────────────────────
+
+  fx_xgboost_signal:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.05
+    retrain_interval_days: 7
+
+  fx_lstm_signal:
+    hidden_size: 64
+    num_layers: 2
+    sequence_length: 60
+    dropout: 0.2
+    retrain_interval_days: 7
+
+  fx_dqn_scalper:
+    sequence_length: 20
+    gamma: 0.95
+    epsilon: 0.1
+    learning_rate: 0.001
+    batch_size: 64
+    retrain_interval_days: 1
+    min_confidence: 0.5
+
+  fx_xgboost_hft:
+    n_estimators: 150
+    max_depth: 5
+    learning_rate: 0.08
+    retrain_interval_hours: 4
+    probability_threshold: 0.55
+    prediction_horizon: 5

@@ -1,0 +1,146 @@
+hmm:
+  n_states: 3
+  features:
+    - returns
+    - rolling_volatility
+  covariance_type: full
+  n_iter: 100
+  refit_interval: weekly    # refit every week
+  predict_timeframe: H4     # predict regime every H4 bar
+
+mapping:
+  XAUUSD:
+    TRENDING:
+      - sma_crossover
+      - lstm_signal
+    MEAN_REVERTING:
+      - bollinger
+      - gold_silver_ratio
+    VOLATILE: []
+
+  XTIUSD:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - spread_ou
+      - bollinger
+    VOLATILE:
+      - gjr_garch
+
+  XBRUSD:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - spread_ou
+    VOLATILE: []
+
+  XNGUSD:
+    TRENDING:
+      - natgas_calendar
+      - sma_crossover
+    MEAN_REVERTING:
+      - natgas_calendar
+      - bollinger
+    VOLATILE: []
+
+  XAGUSD:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - gold_silver_ratio
+    VOLATILE: []
+
+  XCUUSD:
+    TRENDING:
+      - har
+    MEAN_REVERTING:
+      - bollinger
+    VOLATILE: []
+
+  XPTUSD:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - bollinger
+      - zscore_reversion
+    VOLATILE: []
+
+  XPDUSD:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - bollinger
+      - zscore_reversion
+    VOLATILE: []
+
+  XALUSD:
+    TRENDING:
+      - sma_crossover
+      - har
+    MEAN_REVERTING:
+      - bollinger
+      - zscore_reversion
+    VOLATILE: []
+
+  CORN:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - ag_growing
+      - zscore_reversion
+    VOLATILE: []
+
+  SOYBEAN:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - ag_growing
+      - zscore_reversion
+      - soybean_crush
+    VOLATILE: []
+
+  WHEAT:
+    TRENDING:
+      - sma_crossover
+    MEAN_REVERTING:
+      - ag_growing
+      - zscore_reversion
+    VOLATILE: []
+
+# ── HFT Algorithm → Instrument × Regime Mapping ─────────────────
+# Used by the HFT engine (hft_engine.py) on M1 bars.
+# Separate from the standard mapping above.
+hft_mapping:
+  XAUUSD:
+    TRENDING: &all_hft
+      - tick_scalper
+      - vol_breakout_hft
+      - micro_reversion
+      - order_flow_imbalance
+      - spread_scalper_hft
+      - cross_commodity_lead_lag
+      - dqn_scalper
+      - xgboost_hft
+      - hft_momentum
+    MEAN_REVERTING: *all_hft
+    VOLATILE: *all_hft
+
+  XTIUSD:
+    TRENDING: *all_hft
+    MEAN_REVERTING: *all_hft
+    VOLATILE: *all_hft
+
+  XBRUSD:
+    TRENDING: *all_hft
+    MEAN_REVERTING: *all_hft
+    VOLATILE: *all_hft
+
+  XNGUSD:
+    TRENDING: *all_hft
+    MEAN_REVERTING: *all_hft
+    VOLATILE: *all_hft
+
+  XAGUSD:
+    TRENDING: *all_hft
+    MEAN_REVERTING: *all_hft
+    VOLATILE: *all_hft

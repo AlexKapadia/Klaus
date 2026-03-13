@@ -1,0 +1,80 @@
+instruments:
+  - symbol: EURUSD
+    name: Euro / US Dollar
+    category: major
+    tick_size: 0.00001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: GBPUSD
+    name: British Pound / US Dollar
+    category: major
+    tick_size: 0.00001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: USDJPY
+    name: US Dollar / Japanese Yen
+    category: major
+    tick_size: 0.001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: USDCHF
+    name: US Dollar / Swiss Franc
+    category: major
+    tick_size: 0.00001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: AUDUSD
+    name: Australian Dollar / US Dollar
+    category: major
+    tick_size: 0.00001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: USDCAD
+    name: US Dollar / Canadian Dollar
+    category: major
+    tick_size: 0.00001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: NZDUSD
+    name: New Zealand Dollar / US Dollar
+    category: major
+    tick_size: 0.00001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: EURGBP
+    name: Euro / British Pound
+    category: cross
+    tick_size: 0.00001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: EURJPY
+    name: Euro / Japanese Yen
+    category: cross
+    tick_size: 0.001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true
+
+  - symbol: GBPJPY
+    name: British Pound / Japanese Yen
+    category: cross
+    tick_size: 0.001
+    lot_size: 100000
+    margin_rate: 0.01
+    active: true

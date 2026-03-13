@@ -1,0 +1,60 @@
+# ── Standard Engine Risk Parameters ──────────────────────────────
+max_drawdown_pct: 10.0
+drawdown_reduce_pct: 5.0
+cppi_floor_pct: 90.0
+cppi_multiplier: 3.0
+max_positions: 8
+max_per_instrument: 1
+max_correlated_positions: 3
+correlation_threshold: 0.7
+max_risk_per_trade_pct: 0.5
+default_sl_atr_mult: 2.0
+default_tp_atr_mult: 3.0
+kelly_fraction: 0.5
+
+# ── HFT Engine Risk Parameters ──────────────────────────────────
+# Micro-scalping configuration: many tiny trades, conservative P/L.
+# Academic basis: Aldridge (2013), Cartea/Jaimungal/Penalva (2015).
+# Target: high trade count, small per-trade risk, steady positive EV.
+# Used by HFTRiskManager (hft_risk_manager.py).
+hft:
+  cycle_interval: 1              # 1s cycles — maximum frequency
+  data_bars: 500                 # M1 bars to fetch (~8 hours)
+  regime_interval_minutes: 15    # re-predict regime every 15 min
+  refit_interval_hours: 4        # refit HMM every 4 hours
+
+  risk:
+    max_trades_per_day: 50000    # demo account — uncapped
+    max_hft_positions: 25        # more concurrent positions for volume
+    max_per_instrument_hft: 8    # allow multiple micro-positions per symbol
+    cooldown_seconds: 1          # 1s cooldown — rapid fire micro-trades
+    max_risk_per_trade_pct: 0.05 # 0.05% equity per trade — micro risk (Aldridge 2013)
+    max_volume_per_trade: 0.05   # hard cap 0.05 lots — minimum size trades
+    default_sl_atr_mult: 0.3     # very tight SL — quick cut
+    default_tp_atr_mult: 0.3     # very tight TP — grab 3-4 pips and exit
+    max_daily_loss_pct: 3.0      # 3% daily loss cap — conservative drawdown
+    spread_cost_buffer: 1.2      # TP must be 1.2x spread — ensures profit > costs
+    min_atr_pct: 0.3             # lower ATR floor for tighter sizing
+    min_signal_strength: 0.0     # take all signals (large accounts can absorb losses)
+
+    # Growth mode — auto-applied for accounts under $5000
+    # Micro-scalping: rapid tiny trades, tight SL/TP, maximum frequency
+    growth_mode:
+      equity_threshold: 5000       # activate below this equity
+      risk_per_trade_pct: 1.0      # 1% per trade
+      min_signal_strength: 0.30    # lower bar — take more signals for frequency
+      max_volume_per_trade: 0.10   # allow up to 0.10 lots
+      max_hft_positions: 6         # more concurrent for frequency
+      max_per_instrument: 3        # allow 3 per instrument
+      cooldown_seconds: 1          # 1s cooldown — rapid fire
+      default_sl_atr_mult: 0.25    # ultra-tight SL — micro loss on losers
+      default_tp_atr_mult: 0.30    # ultra-tight TP — grab small profits fast
+      max_daily_loss_pct: 5.0      # 5% daily cap — accept more risk for growth
+
+    # Trailing stop — lock in profits instead of waiting for full TP
+    trailing_stop:
+      enabled: true
+      activation_pct: 40         # activate trail when 40% of TP distance is reached
+      trail_pct: 50              # trail SL at 50% of current profit (locks in half)
+      breakeven_pct: 25          # move SL to breakeven when 25% of TP reached
+      max_hold_seconds: 120      # force-close after 2 min if still open (stale trade)
